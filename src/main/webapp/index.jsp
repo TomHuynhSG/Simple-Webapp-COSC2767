@@ -12,7 +12,7 @@
   </head>
   <body>
 
-    <!-- The content of the website starts here! -->
+    <!-- The content of the website starts here now! -->
     <div class="jumbotron">
       <h1 class="display-4">Hello world for DevOps Students!</h1>
       <p class="lead">This is a very simple website template that uses bootstrap CSS framework!</p>
