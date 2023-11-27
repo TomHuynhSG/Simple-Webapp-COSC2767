@@ -17,6 +17,7 @@
       <h1 class="display-4">Hello world for DevOps Students!</h1>
       <p class="lead">This is a very simple website template that uses bootstrap CSS framework!</p>
       <p class="lead">This website is build automatically by Jenkins!!! Yeahhhh!!! Woohoooo!</p>
+      <p class="lead">This sentence is a new feature and hopefully will trigger the Jenkins job to activate!</p>
       <hr class="my-4">
       <p>You can visit the website of School of Science, Engineering and Technology (SSET) of RMIT Vietnam by clicking to the button below!</p>
       <a class="btn btn-primary btn-lg" href="https://www.rmit.edu.vn/about-us/schools-and-centres/school-of-science-engineering-and-technology" role="button">Learn more about SSET</a>
