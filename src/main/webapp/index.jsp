@@ -23,7 +23,7 @@
     <div class="jumbotron">
       <h1 class="display-4">
         Hello DevOps Students of RMIT Vietnam! [This is a new commit 2025]. It
-        is Tri. I am so glad to be here.
+        is Tri. I am so glad to be here. Hello!
       </h1>
       <p class="lead">
         This is a very simple website template that uses bootstrap CSS
