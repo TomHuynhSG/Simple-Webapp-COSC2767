@@ -14,6 +14,7 @@
     <!-- The content of the website starts here now! -->
     <div class="jumbotron">
       <h1 class="display-4">Hello DevOps Students of RMIT Vietnam!</h1>
+      <h1 class="display-4">Winter is so beautifull</h1>
       <p class="lead">This is a very simple website template that uses bootstrap CSS framework!</p>
       <p class="lead">This website is build automatically by Jenkins!!! Yeahhhh!!! 2025</p>
       <hr class="my-4">
