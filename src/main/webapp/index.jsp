@@ -8,9 +8,40 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello DevOps Students of RMIT Vietnam!!!</title>
+    <title>Hello DevOps Students of RMIT Vietnam!!!<3</title>
   </head>
   <body>
+<!-- Add this logging code -->
+<%@ page import="java.io.*, java.util.Date, java.text.SimpleDateFormat" %>
+<%
+try {
+    // Define the path for the log file inside the container
+    String logDirPath = "/usr/local/tomcat/logs";
+    String logFilePath = logDirPath + "/app.log";
+
+    // Ensure the log directory exists
+    File logDir = new File(logDirPath);
+    if (!logDir.exists()) {
+        logDir.mkdirs();
+    }
+
+    // Open the log file in append mode (the 'true' flag)
+    PrintWriter outlog = new PrintWriter(new FileWriter(logFilePath, true));
+
+    // Create a timestamp and write the log entry
+    String timestamp = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+    outlog.println(timestamp + " - Page accessed by a user.");
+
+    // Close the writer to save the changes
+    outlog.close();
+} catch (IOException e) {
+    // Basic error handling
+    e.printStackTrace();
+}
+%>
+
+<!-- You can add this line right underneath the logging code to show a message on the webpage -->
+<p style="color: green;"><b>A new log entry was just added to /usr/local/tomcat/logs/app.log!</b></p>
 
     <!-- The content of the website starts here now! -->
     <div class="jumbotron">
